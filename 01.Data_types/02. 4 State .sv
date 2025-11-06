@@ -4,7 +4,6 @@ module four_state_example;
   reg   r;
   reg [7:0] r8;
   wire  w;
-  tri   t;
   logic [3:0] a;
 
   assign w = l;
@@ -17,7 +16,7 @@ module four_state_example;
     a  = 4'b10xz;
 
     #5;
-    $display("l=%b r=%b r8=%b w=%b t=%b a=%b", l, r, r8, w, t, a);
+    $display("l=%b r=%b r8=%b w=%b a=%b", l, r, r8, w, a);
 
     l = 1'bx;
     r = 1'bz;
