@@ -13,8 +13,8 @@ module dy_array;
   dy_array2 = dy_array ;
     $display (" elements of dynamic array2 = %0p " , dy_array2);
     
-    dy_array[2]= 100;
-    $display (" elements of dynamic array2 after change in dy_array  = %0p " , dy_array2);
+    dy_array= 100;
+    $display (" elements of dynamic array2 after change in dy_array  = %0p " , dy_array);  // NO CHANGE COZ THEY SHARE DIFF MEMORY LOCATIONS 
     
     
   end
