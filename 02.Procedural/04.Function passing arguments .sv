@@ -1,5 +1,6 @@
 module pass_by_value;
- 
+                                    //A copy of the variable is passed to the task or function.
+                                   //Changes inside the task do not affect the original variable.
   function int sum(int x,y);
     x = x+y;//x=50
     y = x+y;//y=80
@@ -17,7 +18,7 @@ module pass_by_value;
 endmodule
 
 OUTPUT
-x = 20
+x = 20   
 y = 30
 
 x = 20
@@ -26,6 +27,8 @@ z = 130
 
 
 // PASS BY REFERENCE 
+//The task or function shares the same memory as the caller variable.
+//Changes inside the task directly affect the original variable.
 
 module pass_by_reference;
   int x,y,z;
