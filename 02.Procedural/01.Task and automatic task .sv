@@ -2,9 +2,9 @@
 // or browse Examples
 module static_task_ex ;
   int i ; // STATIC IN NATURE 
-  function increment ( );
+  task increment ( );
    i=i+1;
-  endfunction 
+  endtask
   initial begin 
     increment ();
     $display ("the value of i after increment %0d", i);
