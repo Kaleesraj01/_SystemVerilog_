@@ -1,4 +1,4 @@
-module task_pass_by_value;
+module task_pass_by_ref;
   task automatic ex(ref int x, int y);
     x = x + y;
     y = y + 1;
