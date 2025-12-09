@@ -20,11 +20,11 @@ module tb;
   end 
     endmodule 
   
-/*output
+//output
 * Error (suppressible): (vlog-8688) testbench.sv(24): Illegal access to protected member display.
         Full name of member: design_sv_unit::parent::display
         Full name of calling scope: outside a class context
 ** Warning: testbench.sv(24): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
 End time: 07:27:52 on Dec 09,2025, Elapsed time: 0:00:00
-Errors: 1, Warnings: 1 */
+Errors: 1, Warnings: 1
  
