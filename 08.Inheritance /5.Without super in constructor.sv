@@ -1,3 +1,4 @@
+// All constructors have no arguments, so SV automatically calls base1 base2 child
 class base1;
   int x;
 
