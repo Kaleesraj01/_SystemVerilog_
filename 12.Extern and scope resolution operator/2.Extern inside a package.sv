@@ -13,17 +13,16 @@ function void my_pkg::Driver::print_id();
   $display("Object handle = %0p", this );
 endfunction
       endpackage 
-      
-      
-module tb;
-  import my_pkg::*;
 
+
+
+import my_pkg::*;      
+module tb;
   initial begin
     Driver d = new();
     d.drive(399);
     d.print_id();
   end
-
 endmodule
 OUTPUT 
       Driving data =399
