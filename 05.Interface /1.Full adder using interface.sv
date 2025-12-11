@@ -27,7 +27,7 @@ endinterface
       inf.c = 0;
       #10;
       inf.a = 1;
-      inf.b = 1;
+      inf.b = 1; 
       inf.c = 0;
       #10;
       inf.a = 1;
@@ -43,3 +43,8 @@ OUTPUT
 # a=1 b=1 c=0 sum=0 carry=1
 # a=1 b=1 c=1 sum=1 carry=1
 # exit
+
+
+
+
+///// hosdifrhiuweviuygdaalgtWUYV8GKJG JF:lI4209=V=
