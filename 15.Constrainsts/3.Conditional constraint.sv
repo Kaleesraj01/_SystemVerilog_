@@ -20,5 +20,30 @@ OUTPUT
 # sel=0,data=5
 # sel=0,data=5
 # exit
+==============================================================================================================
 
+// Code your testbench here
+// or browse Examples
+class RAndom;
+  rand bit sel ;
+  rand logic [3:0] data ;
+  constraint c1 {if(sel==0) data==5; 
+    else data==10;}
+endclass 
+
+module tb ;
+  RAndom r ;
+  initial begin 
+    r=new(); 
+    repeat (4) begin
+    r.randomize();
+      $display ("sel=%0d,data=%0d",r.sel, r.data );
+    end  end
+    endmodule 
+     
+  
+# sel=0,data=5
+# sel=1,data=10
+# sel=0,data=5
+# sel=1,data=10
   
