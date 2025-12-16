@@ -62,6 +62,6 @@ endmodule
 # selection=3, data=13 
 # selection=4, data=9 
 # selection=4, data=13 
-# selection=0, data=15 
+# selection=0, data=15 //15 for sel 0
 # selection=3, data=9 
 # selection=0, data=15     // 15 occurs only for sel 0 onlyyyyyyy/////
