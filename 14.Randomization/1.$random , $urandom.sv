@@ -7,6 +7,7 @@ module mod;
     repeat (7) begin
     data = $random ;
     bitt = $urandom;//unsigned 
+     
       $display ("data=%0d,bitt=%0d",data,bitt);
     end  
   end
