@@ -1,4 +1,4 @@
-// Code your testbench here
+// Code your testbench her
 // or browse Examples
 module static_task_ex ;
   int i ; // STATIC IN NATURE 
