@@ -41,8 +41,14 @@ module tb;
 
     $finish;
   end
-
-
-  OUTPUT
   
 endmodule
+
+OUTPUT
+Even Ascending Array:
+arr[0] = 34
+arr[1] = 36
+arr[2] = 40
+arr[3] = 44
+arr[4] = 52
+                
