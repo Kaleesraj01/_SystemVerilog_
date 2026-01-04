@@ -23,3 +23,7 @@ module tb;
     $display("Inline constrained data = %0d", i.data);
   end
 endmodule
+
+OUTPUT 
+# Normal data = 94
+# Inline constrained data = 56
