@@ -26,3 +26,18 @@ module tb;
     $finish;
   end
 endmodule
+
+
+OUTPUT
+ Default (soft) data = 18
+# Overridden data = 56
+# --------------------
+# Default (soft) data = 11
+# Overridden data = 52
+# --------------------
+# Default (soft) data = 13
+# Overridden data = 60
+# --------------------
+# Default (soft) data = 15
+# Overridden data = 56
+
