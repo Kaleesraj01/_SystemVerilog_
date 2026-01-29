@@ -31,7 +31,7 @@ module patterngen ;   //0102030405
   OP //  
    the required pattern is :=  0 1 0 2 0 3 0 4 0 
 
-
+======================================================================================
 
 pattern 010101010101....
 module patterngen ;
@@ -64,7 +64,7 @@ endmodule
     
    KERNEL: the required pattern is :=  0 1 0 1 0 1 0 1 0 1 0 1 0 1   
 
-
+====================================================================================
 
 // Code your testbench here
 // or browse Examples
@@ -110,3 +110,29 @@ OUTPUT
 # Power of 2 value = 32 (binary = 00000000000000000000000000100000)
 # Power of 2 value = 2 (binary = 00000000000000000000000000000010)
    
+==========================================================================================
+
+pattern 1122334455
+// or browse Examples
+class pattern_gen;
+  rand int arr[10];
+
+  constraint c_pattern {
+    foreach(arr[i])
+      arr[i] == (i/2) + 1;
+  }
+endclass
+
+module tb;
+  initial begin
+    pattern_gen p = new();
+    p.randomize();
+    
+    foreach (p.arr[i]) begin 
+      $write("%0d", p.arr[i]);
+    end
+  end
+endmodule
+
+??OUTPUT
+# 1122334455 exit 
