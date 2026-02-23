@@ -30,3 +30,8 @@ module immediate_assert_example;
   end
 
 endmodule
+
+
+output 
+$finish called from file "testbench.sv", line 25.
+$finish at simulation time                   50/// assertion passed without fail
