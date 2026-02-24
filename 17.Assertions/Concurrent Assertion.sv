@@ -31,4 +31,12 @@ module and_assertion_example;
     #20 $finish;
   end
 
-endmodule
+endmodule   
+
+
+    output 
+    # RUNTIME: Info: RUNTIME_0068 testbench.sv (33): $finish called.
+# KERNEL: Time: 60 ns,  Iteration: 0,  Instance: /and_assertion_example,  Process: @INITIAL#24_2@.
+# KERNEL: stopped at time: 60 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.
