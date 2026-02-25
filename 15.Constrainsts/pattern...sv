@@ -1,4 +1,4 @@
-class Pattern1234554321;
+  class Pattern1234554321;
 
   rand int arr[10];   // fixed size array (10 elements)
 
