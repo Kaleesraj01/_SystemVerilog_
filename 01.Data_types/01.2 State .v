@@ -1,4 +1,4 @@
- module two_state_ex;
+  module two_state_ex;
 
   bit a;
   bit [3:0] vec;
